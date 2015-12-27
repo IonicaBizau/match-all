@@ -21,8 +21,10 @@ console.log(matchAll(s, /_([a-z]+)_/gi).toArray());
 var m = matchAll(s, /_([a-z]+)_/gi);
 console.log(m.next());
 // => "World"
+
 console.log(m.next());
 // => "Mars"
+
 console.log(m.next());
 // => null
 
