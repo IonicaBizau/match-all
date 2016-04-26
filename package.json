@@ -1,6 +1,6 @@
 {
   "name": "match-all",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Get all the matches for a regular expression in a string.",
   "main": "lib/index.js",
   "directories": {
@@ -27,5 +27,16 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/match-all/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/match-all#readme"
+  "homepage": "https://github.com/IonicaBizau/match-all#readme",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
