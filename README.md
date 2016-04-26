@@ -1,14 +1,18 @@
+
 # match-all [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/match-all.svg)](https://www.npmjs.com/package/match-all) [![Downloads](https://img.shields.io/npm/dt/match-all.svg)](https://www.npmjs.com/package/match-all) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Get all the matches for a regular expression in a string.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save match-all
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 const matchAll = require("match-all");
@@ -48,7 +52,8 @@ console.log(m2.next());
 // => "Pluto"
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `matchAll(s, r)`
 Get all the matches for a regular expression in a string.
@@ -86,13 +91,18 @@ Reset the index.
 #### Return
 - **Number** The new index.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
+
+ - [`emojer`](https://github.com/IonicaBizau/emojer#readme)—Emojify all the things.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
