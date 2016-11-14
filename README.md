@@ -40,10 +40,10 @@ console.log(matchAll(multipleGroup, /_([a-z]+([0-9]+))_/gi).toArray());
 
 // Get matches one by one
 var multipleMatch = matchAll(multipleGroup, /_([a-z]+([0-9]+))_/gi);
-console.log(multipleMatch.next());
+console.log(multipleMatch.nextRaw());
 // => [..., "World001", "001"]
 
-console.log(multipleMatch.next());
+console.log(multipleMatch.nextRaw());
 // => [..., "World002", "002"]
 
 var m2 = matchAll("Hello _World_, _Mars_, _Pluto_ and _Moon_!", /_([a-z]+)_/gi);
