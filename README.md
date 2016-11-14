@@ -36,7 +36,7 @@ console.log(m.next());
 
 var multipleGroup = "Hello _World001_ and _World002_";
 console.log(matchAll(multipleGroup, /_([a-z]+([0-9]+))_/gi).toArray());
-// => [ "World", "Mars" ]
+// => [ "World001", "World002" ]
 
 // Get matches one by one
 var multipleMatch = matchAll(multipleGroup, /_([a-z]+([0-9]+))_/gi);
