@@ -15,6 +15,18 @@ console.log(m.next());
 console.log(m.next());
 // => null
 
+var multipleGroup = "Hello _World001_ and _World002_";
+console.log(matchAll(multipleGroup, /_([a-z]+([0-9]+))_/gi).toArray());
+// => [ "World", "Mars" ]
+
+// Get matches one by one
+var multipleMatch = matchAll(multipleGroup, /_([a-z]+([0-9]+))_/gi);
+console.log(multipleMatch.nextRaw());
+// => [..., "World001", "001"]
+
+console.log(multipleMatch.nextRaw());
+// => [..., "World002", "002"]
+
 var m2 = matchAll("Hello _World_, _Mars_, _Pluto_ and _Moon_!", /_([a-z]+)_/gi);
 console.log(m2.next());
 // => "World"
