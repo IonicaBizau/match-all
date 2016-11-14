@@ -1,7 +1,7 @@
 
 # match-all
 
- [![Patreon](https://img.shields.io/badge/Support%20me%20on-Patreon-%23e6461a.svg)][patreon] [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/match-all.svg)](https://www.npmjs.com/package/match-all) [![Downloads](https://img.shields.io/npm/dt/match-all.svg)](https://www.npmjs.com/package/match-all) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/match-all.svg)](https://www.npmjs.com/package/match-all) [![Downloads](https://img.shields.io/npm/dt/match-all.svg)](https://www.npmjs.com/package/match-all) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Get all the matches for a regular expression in a string.
 
@@ -19,12 +19,12 @@ $ npm i --save match-all
 ```js
 const matchAll = require("match-all");
 
-var s = "Hello _World_ and _Mars_";
+let s = "Hello _World_ and _Mars_";
 console.log(matchAll(s, /_([a-z]+)_/gi).toArray());
 // => [ "World", "Mars" ]
 
 // Get matches one by one
-var m = matchAll(s, /_([a-z]+)_/gi);
+let m = matchAll(s, /_([a-z]+)_/gi);
 console.log(m.next());
 // => "World"
 
@@ -34,19 +34,19 @@ console.log(m.next());
 console.log(m.next());
 // => null
 
-var multipleGroup = "Hello _World001_ and _World002_";
+let multipleGroup = "Hello _World001_ and _World002_";
 console.log(matchAll(multipleGroup, /_([a-z]+([0-9]+))_/gi).toArray());
-// => [ "World001", "World002" ]
+// => [ "World", "Mars" ]
 
 // Get matches one by one
-var multipleMatch = matchAll(multipleGroup, /_([a-z]+([0-9]+))_/gi);
+let multipleMatch = matchAll(multipleGroup, /_([a-z]+([0-9]+))_/gi);
 console.log(multipleMatch.nextRaw());
 // => [..., "World001", "001"]
 
 console.log(multipleMatch.nextRaw());
 // => [..., "World002", "002"]
 
-var m2 = matchAll("Hello _World_, _Mars_, _Pluto_ and _Moon_!", /_([a-z]+)_/gi);
+let m2 = matchAll("Hello _World_, _Mars_, _Pluto_ and _Moon_!", /_([a-z]+)_/gi);
 console.log(m2.next());
 // => "World"
 
@@ -116,16 +116,6 @@ Reset the index.
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-
-## :moneybag: Donations
-
-Another way to support the development of my open-source modules is
-to [set up a recurring donation, via Patreon][patreon]. :rocket:
-
-[PayPal donations][paypal-donations] are appreciated too! Each dollar helps.
-
-Thanks! :heart:
-
 ## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
@@ -137,7 +127,6 @@ If you are using this library in one of your projects, add it in this list. :spa
 
 [MIT][license] © [Ionică Bizău][website]
 
-[patreon]: https://www.patreon.com/ionicabizau
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 

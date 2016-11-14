@@ -27,7 +27,7 @@ Get the next match in single group match.
 Get the next match in raw regex output. Usefull to get another group match.
 
 #### Return
-- **Array** The matched snippet.
+- **Array** The matched snippet
 
 ### `toArray()`
 Get all the matches.
