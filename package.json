@@ -1,6 +1,6 @@
 {
   "name": "match-all",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Get all the matches for a regular expression in a string.",
   "main": "lib/index.js",
   "directories": {
@@ -15,7 +15,7 @@
     "regex",
     "string"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "contributors": [
     "Johny Jugianto <johnyj@amproker.com>"
   ],
@@ -35,12 +35,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
