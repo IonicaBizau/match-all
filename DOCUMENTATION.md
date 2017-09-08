@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Get all the matches for a regular expression in a string.
 
 #### Params
+
 - **String** `s`: The input string.
 - **RegExp** `r`: The regular expression.
 
@@ -39,6 +40,7 @@ Get all the matches.
 Reset the index.
 
 #### Params
+
 - **Number** `i`: The new index (default: `0`).
 
 #### Return
