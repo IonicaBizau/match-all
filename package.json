@@ -1,6 +1,6 @@
 {
   "name": "match-all",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Get all the matches for a regular expression in a string.",
   "main": "lib/index.js",
   "directories": {
@@ -41,6 +41,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
