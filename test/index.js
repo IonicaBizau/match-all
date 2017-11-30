@@ -22,4 +22,11 @@ tester.describe("run the tests", test => {
         m.reset(20);
         test.expect(m.next()).toBe("Pluto");
     });
+    test.it("alternate regex", () => {
+        var m = match("Hello World and Mars", /(World)|(Mars)/gi);
+        test.expect(m.next()).toBe("World");
+        test.expect(m.next()).toBe("Mars");
+        m.reset();
+        test.expect(m.toArray()).toEqual(["World", "Mars"])
+    });
 });
