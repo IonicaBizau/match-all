@@ -22,13 +22,13 @@ Get all the matches for a regular expression in a string.
 Get the next match in single group match.
 
 #### Return
-- **String** The matched snippet.
+- **String|null** The matched snippet.
 
 ### `nextRaw()`
 Get the next match in raw regex output. Usefull to get another group match.
 
 #### Return
-- **Array** The matched snippet
+- **Array|null** The matched snippet
 
 ### `toArray()`
 Get all the matches.

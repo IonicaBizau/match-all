@@ -19,7 +19,7 @@
 
 # match-all
 
- [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/match-all.svg)](https://www.npmjs.com/package/match-all) [![Downloads](https://img.shields.io/npm/dt/match-all.svg)](https://www.npmjs.com/package/match-all) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+ [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/match-all.svg)](https://www.npmjs.com/package/match-all) [![Downloads](https://img.shields.io/npm/dt/match-all.svg)](https://www.npmjs.com/package/match-all) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/@johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 <a href="https://www.buymeacoffee.com/H96WwChMy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
 
@@ -133,6 +133,7 @@ console.log(m2.next());
 
 
 
+
 ## :question: Get Help
 
 There are few ways to get help:
@@ -142,6 +143,8 @@ There are few ways to get help:
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
+
 
 
 
@@ -170,13 +173,13 @@ Get all the matches for a regular expression in a string.
 Get the next match in single group match.
 
 #### Return
-- **String** The matched snippet.
+- **String|null** The matched snippet.
 
 ### `nextRaw()`
 Get the next match in raw regex output. Usefull to get another group match.
 
 #### Return
-- **Array** The matched snippet
+- **Array|null** The matched snippet
 
 ### `toArray()`
 Get all the matches.
@@ -247,33 +250,91 @@ Thanks! :heart:
 ## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - `@nexrender/core`
- - `rucksack`
- - `emojer`
- - `bot-peripheral`
- - `@koumoul/vuetify-jsonschema-form`
- - `@dhis2/cli-utils-docsite`
- - `csv-to-lines`
- - `@koumoul/vjsf`
- - `autoload-modules-loader`
- - `trello-react-scripts`
- - `google-font-downloader`
- - `@x1b/vuetify-jsonschema-form`
- - `fixturize`
- - `text-testing-mocha`
- - `json-schema-for-vuetify`
- - `@edgar-orozco/vuetify-jsonschema-form`
- - `@dev7ch/vuetify-jsonschema-form`
- - `@sheetbase/app-scripts`
- - `@vitaliikorsakov/thelib`
- - `@nickjfree/vuetify-jsonschema-form`
+ - `@0xged/hardhat-deploy`
+ - `@4000d/hardhat-deploy`
+ - `@anthonymartin/hardhat-deploy`
+ - `@apify/markdown`
+ - `@bahuy3103/hardhat-deploy`
+ - `@baking-bad/vjsf`
  - `@cloedu/vuetify-jsonschema-form`
- - `navdata-parser`
- - `react-navigation-generated-cli`
- - `docker-compose-viz`
- - `waqueplus`
+ - `@dev7ch/vuetify-jsonschema-form`
+ - `@dhis2/cli-utils-docsite`
+ - `@ed3ath/hardhat-deploy`
+ - `@edgar-orozco/vuetify-jsonschema-form`
+ - `@elvis-krop/hardhat-deploy`
  - `@emartech/collect-font-families`
+ - `@eonian/hardhat-deploy`
+ - `@float-capital/hardhat-deploy`
+ - `@fvictorio/buidler-deploy`
+ - `@holographxyz/hardhat-deploy-holographed`
+ - `@humafara/evmhuma`
+ - `@idkravitz/hardhat-deploy`
+ - `@innoswap/core`
+ - `@kangafinance/hardhat-deploy`
+ - `@koumoul/vuetify-jsonschema-form`
+ - `@layerzerolabs/hardhat-deploy`
+ - `@layerzerolabs/hardhat-tron`
+ - `@lerna-test-v1/markdown`
+ - `@malatrax/hardhat-deploy`
+ - `@mikeraymcdonald/hardhat-deploy`
+ - `@miragon/vjsf`
+ - `@muenchen/vjsf`
+ - `@mvandenburgh/vjsf`
+ - `@nickjfree/vuetify-jsonschema-form`
+ - `@nirin100/quadratic-protocol`
+ - `@nirin100/quadratic-sdk`
+ - `@openhat/cli-utils-docsite`
+ - `@pahor167/hardhat-deploy`
+ - `@phydy/lend`
+ - `@sanv/apify-shared`
+ - `@sheetbase/app-scripts`
+ - `@sheetbase/server-scripts`
  - `@strong-config/node`
+ - `@tiemma/sonic-core`
+ - `@vechain.energy/hardhat-deploy`
+ - `@vitaliikorsakov/thelib`
+ - `@x1b/vuetify-jsonschema-form`
+ - `@zippie/hardhat-deploy`
+ - `apify-shared`
+ - `autocreatetomorokopi`
+ - `autoload-modules-loader`
+ - `blazepack`
+ - `bot-peripheral`
+ - `buidler-deploy`
+ - `candy-moon-native`
+ - `csv-to-lines`
+ - `docker-compose-viz`
+ - `emojer`
+ - `evmhuma`
+ - `google-font-downloader`
+ - `harbor-hardhat-deploy`
+ - `hardhat-deploy`
+ - `hardhat-deploy-akv`
+ - `hardhat-deploy-hardware-wallet`
+ - `hardhat-deploy-immutable-proxy`
+ - `hardhat-deployment`
+ - `html_proc`
+ - `json-schema-for-vuetify`
+ - `lb4-utils`
+ - `navdata-parser`
+ - `opengate-vjsf`
+ - `quadratic-sdk`
+ - `qudratic-ui`
+ - `quoridorn-server-lib`
+ - `quoripagos-server-core`
+ - `react-native-tailwind-style`
+ - `react-navigation-generated-cli`
+ - `redfishrepotest`
+ - `rn-tailwindcss`
+ - `rs-web-reactor`
+ - `rucksack`
+ - `shadows-hardhat-deploy`
+ - `tailwind-rf`
+ - `tailwind-rn-io`
+ - `tailwindcss-rn`
+ - `text-testing-mocha`
+ - `trello-react-scripts`
+ - `waqueplus`
 
 
 
